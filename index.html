@@ -12,10 +12,11 @@
 
         <nav>
             <ul>
-                <li>HTML Tables</li>
-                <li>HTML Forms</li>
-                <li>CSS selectors and specificty</li>
-                <li>Common CSS properties</li>
+                <li><a href="#">HTML Tags</a></li>
+                <li><a href="#">Tables</a></li>
+                <li><a href="#">Forms</a></li>
+                <li><a href="#">CSS selectors and specificty</a></li>
+                <li><a href="#">Common CSS properties</a></li>
                 <label for="search" ><input type="text" id='search' placeholder="Search"></label>
             </ul>
         </nav> 
@@ -24,45 +25,16 @@
   
    <main>
        <article>
-           <h3 class='intro'>Introduction</h3>
-           <p>HTML and CSS are the building blocks of every webpage 
-               you see on the internet. Thus, to become a web developer 
-               you need to know these two languages. In this page, I cover
-               the basics of the two languages. You can use this as a note 
-               or a reference to help you on your web development journey.
-             </p>
-
-             <h2>HTML Tags</h2>
-             <p>All HTML contents are enclosed in tags; text, images,
-                 videos etc. are put in tags. The content is put between opening 
-                 and closing tags. The content together with the opening
-                 and closing tags form an HTML element.
-                 Below is a paragraph element which displays text:<br>
-                 &lt;p&gt;This is a paragraph&lt;/p&gt; <br>
-                 As seen above, the text 'This is a paragraph' begins with an opening 
-                 tag, which is made of the tag name (p) enclosed in a less than and greater 
-                 than sign. It is then ended in a closing tag, which has a forward slash after
-                 the less than sign.
-                 However, not all content have closing tags. Some tags are self-closing and 
-                 hence do not need a closing tag. An example is the image (img) tag which is 
-                 used show images. It is shown below: <br>
-                 &lt;img src="image.png"&gt;<br>
-                 As seen above, there is no need for a closing tag. Another way of representing
-                 self-closing tags is &lt;img&gt;<br>
-                 Did you notice the src="image.png", this is an attribute and you can learn more 
-                 about them in the <a href="#">attribute section</a>.
-                 The tables below shows some basic HTML tags and their uses. 
-             </p>
-
+             
              <table>
-                 <caption>HTML TAGS AND THEIR USES</caption>
-                 <tr>
+                 <caption><h2>HTML Tags And Their Use</h2></caption>
+                 <thead>
                      <th>TAG</th>
                      <th>NAME</th>
-                     <th>USE</th>
-                 </tr>
+                     <th>DESCRIPTION / USE</th>
+                 </thead>
                  <tr>
-                    <td>&lt;HTML&gt;</td>
+                    <td>&lt;html&gt;</td>
                     <td>HTML</td>
                     <td>This tag encloses all the HTML content of a webpage</td>
                 </tr>
@@ -86,8 +58,7 @@
                     <td>&lt;link&gt;</td>
                     <td>Link</td>
                     <td>Also found within the head tag, this is used to link external 
-                        files, including CSS files to the HTML file. You could however write 
-                        the lines of code for these directly in the HTML document.
+                        files, including CSS files to the HTML file.
                 </td>
                 <tr>
                     <td>&lt;script&gt;</td>
@@ -201,23 +172,14 @@
              </table>
 
              <div>
-                <h2>HTML Tag Attributes</h2>
-                <p>HTML attributes are keywords that are put in opening tags to modify
-                    the behavior of the element.
-                    In our HTML tags section we saw an example of an attribute: <br>
-                    &lt;img src="image.png"&gt;<br>
-                here src (source) is the  attribute, and it is used to specify location of 
-                the image file. This can be a folder within your desktop, or a location on
-                the internet. Below is a table showing some HTML tag attributes and their use.
-
                 <table>
-                    <caption>HTML TAG ATTRIBUTES AND THEIR USES</caption>
-                    <tr>
+                    <caption><h2>HTML Tag Attributes AND Their Uses</h2></caption>
+                    <thead>
                         <th>Attribute</th>
                         <th>Name</th>
                         <th>Tag(s)</th>
                         <th>Use</th>
-                    </tr>
+                    </thead>
                     <tr>
                         <td>href</td>
                         <td>Hypertext Reference</td>
@@ -230,9 +192,8 @@
                         <td>rel</td>
                         <td>Relationship</td>
                         <td>link</td>
-                        <td>Used when lining CSS files. It determines the relationship 
-                            between the HTML document and the CSS file. "Stylesheet" is 
-                            normally used as the value.
+                        <td>Used when linking CSS files. It determines the relationship 
+                            between the HTML document and the CSS file.
                         </td>
                     </tr>
                     <tr>
@@ -256,19 +217,11 @@
                         <td>id</td>
                         <td>Identity</td>
                         <td>Any tag within the body element.</td>
-                        <td>Like the class attribute, it is also used to target specific elemnts,
+                        <td>Like the class attribute, it is also used to target specific elements,
                             however it is more <b>specific</b> than the class attribute.
                         </td>
                     </tr>
-                    
-                    <tr>
-                        <td>href</td>
-                        <td>Hypertext Reference</td>
-                        <td>a, link</td>
-                        <td>For directing the location within the computer or
-                            on the web where the file is found.
-                        </td>
-                    </tr>
+
                     <tr>
                         <td>alt</td>
                         <td>Alternative</td>
@@ -286,10 +239,8 @@
 
    <footer>
        <hr>
-       <h4>About</h4>
-       <p>Hello there, Samuel here. A who aspires to
-           be a software developer. With the little knowledge I have gained in 
-
+       <p>Hello there, Samuel here. An aspiring software developer. With the little knowledge I have gained in web development, I created
+           this cheatsheet for reference. It is a concise one and comes very handy. Reach me on:
        </p>
    </footer>
 </body>
