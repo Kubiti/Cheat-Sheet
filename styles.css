@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgba(135,206,250,0.5); 
+}
+
+h1 {
+    color: darksalmon;
+}
+
+nav {
+    border-top: 3px solid darksalmon;
+    padding: 10px;
+}
+
+nav ul {
+    
+}
+
+nav li {
+    display: inline;
+    padding-right: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin: 5px;
+}
+
+main {
+    padding: 5px 15px;
+    background-image: url(./images/blue_pattern.jpg);
+}
